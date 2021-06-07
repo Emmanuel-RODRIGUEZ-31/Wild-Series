@@ -2,10 +2,13 @@
     <div class="container-fluid">
         <ul>
             <li>
-                <a href="/">Accueil</a>
+                <a href="{{ path("app_index") }}">Accueil</a>
             </li>
             <li>
-                <a href="/program">Liste des série</a>
+                <a href="/{{ path("program_index") }}">Liste des série</a>
+            </li>
+            <li>
+                <a href="{{ path("category_index") }}">Liste des catégories</a>
             </li>
         </ul>
     </div>
